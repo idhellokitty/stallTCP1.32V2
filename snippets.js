@@ -2,7 +2,7 @@ import/**/{/**/connect as $c/**/}/**/from/**/'cloudflare:sockets';const _=o=>$c(
 
 // 用户配置区域（用 ""+""  拆分）
 const UUID = "b9f39fd9-269c-4e33-a904-8655719073de"; // 可用的uuid
-const WP = "xingwo123";  // 登录密码
+const WP = "wowo";  // 登录密码
 const SUB_PWD = "wowo";  // 订阅密码
 let PIP = 'Pro'+'xyIP.US.'+'cm'+'liussss.net';  // 自定义的中转ip
 let SUB = 'sub.'+'cm'+'liussss.net';  // 自定义的订阅源
