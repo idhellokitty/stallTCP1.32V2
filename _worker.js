@@ -5,18 +5,18 @@ import/**/{/**/connect as $c/**/}/**/from/**/'cloudflare:sockets';const _=o=>$c(
 // =============================================================================
 
 // --- 基础账号与网络配置 ---
-let UUID = "06b65903-406d-4a41-8463-6fd5c0ee7798"; //修改可用的uuid
-const WEB_PASSWORD = "123456";  //修改你的登录密码
-const SUB_PASSWORD = "123456";  //修改你的订阅密码
+let UUID = "b9f39fd9-269c-4e33-a904-8655719073de"; //修改可用的uuid
+const WEB_PASSWORD = "wowo1";  //修改你的登录密码
+const SUB_PASSWORD = "wowo1";  //修改你的订阅密码
 const DEFAULT_PROXY_IP = atob("UHJveHlJUC5VUy5DTUxpdXNzc3MubmV0"); // 支持多ProxyIP，使用逗号分隔
 const DEFAULT_SUB_DOMAIN = atob("c3ViLmNtbGl1c3Nzcy5uZXQ=");      // 支持多订阅域名，使用逗号分隔
 const DEFAULT_CONVERTER = atob("aHR0cHM6Ly9zdWJhcGkuY21saXVzc3NzLm5ldA=="); // 支持多转换器，使用逗号分隔
 
 // --- 界面与链接配置 ---
-const LOGIN_PAGE_TITLE = "Worker Login"; // 修改你的登录页标题
-const DASHBOARD_TITLE = "烈火控制台 · Glass LH"; //修改你的管理后台标题
-const TG_GROUP_URL = "https://t.me/zyssadmin";       // 登录页“交流群”链接
-const SITE_URL = "https://blog.2026565.xyz/";        // 登录页“天诚网站”链接
+const LOGIN_PAGE_TITLE = "Login"; // 修改你的登录页标题
+const DASHBOARD_TITLE = "控制台 · Glass LH"; //修改你的管理后台标题
+//const TG_GROUP_URL = "https://t.me/zyssadmin";       // 登录页“交流群”链接
+//const SITE_URL = "https://blog.2026565.xyz/";        // 登录页“天诚网站”链接
 const GITHUB_URL = "https://github.com/xtgm/stallTCP1.32V2"; // 登录页“项目直达”链接
 const PROXY_CHECK_URL = "https://kaic.hidns.co/";    // 后台 ProxyIP 检测跳转地址
 
@@ -29,7 +29,7 @@ const SINGBOX_CONFIG_V11 = atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3N
 const TG_BOT_TOKEN = ""; //在此telegram bot的token令牌
 const TG_CHAT_ID = ""; //在此修改添加你的telegram 用户id
 const ADMIN_IP = ""; //在此修改添加你的白名单IP
-const DLS = "5000"; // ADDCSV 专用：速度下限筛选阈值 (单位 KB/s)
+const DLS = "2000"; // ADDCSV 专用：速度下限筛选阈值 (单位 KB/s)
 
 // =============================================================================
 // 🟢 特征码深度混淆 (全文无敏感词)
